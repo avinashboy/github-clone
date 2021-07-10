@@ -14,7 +14,7 @@ function getInfo(data) {
   let str = "";
   data.forEach((Element) => {
     str = `
-    <div class="col-sm-3 mt-2 mr-2 mb-4">
+    <div class="col-sm-6 col-sx-6 col-md-3 col-lg-4 col-xl-3 mt-2 mr-2 mb-4">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">${Element.name}</h5>
